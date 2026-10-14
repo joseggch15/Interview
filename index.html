@@ -2,19 +2,43 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+/* Apply saved preferences before the stylesheet paints the page. */
+(function(){var lang='es',theme='light';try{lang=localStorage.getItem('portfolio-language')==='en'?'en':'es';var saved=localStorage.getItem('portfolio-theme');theme=saved==='light'||saved==='dark'?saved:(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(error){theme=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;})();
+</script>
 <meta name="description" content="José David Gómez Chamorro. Experiencia en datos, operaciones y software. Portafolio profesional con experiencia, formación y cinco demostraciones con datos sintéticos.">
 <title>José David Gómez · Datos y operaciones</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="motion.css"><link rel="stylesheet" href="enhancements.css">
 </head>
 <body>
 <a class="skip" href="#inicio">Ir al contenido</a>
-<header class="site-header"><a href="#inicio" class="wordmark" aria-label="Inicio">JDG<span> / DATOS Y OPERACIONES</span></a><nav aria-label="Navegación principal"><a href="#trayectoria">Experiencia</a><a href="#formacion">Formación</a><a href="#portafolio">Proyectos</a><a href="#fleet">Demos</a><button id="present" class="small-button" aria-pressed="false">Modo presentación <span>↗</span></button></nav></header>
+<header class="site-header"><a href="#inicio" class="wordmark" aria-label="Inicio">JDG<span> / DATOS Y OPERACIONES</span></a><nav aria-label="Navegación principal"><a href="#trayectoria">Experiencia</a><a href="#formacion">Formación</a><a href="#portafolio">Proyectos</a><a href="#fleet">Demos</a><button id="present" class="small-button" aria-pressed="false" aria-label="Modo presentación"><span class="present-label">Modo presentación</span><span class="present-icon" aria-hidden="true">↗</span></button><label class="language-control" for="language-select"><span class="sr-only" data-i18n="languageLabel">Idioma</span><select id="language-select" aria-label="Idioma"><option value="es" lang="es">Español</option><option value="en" lang="en">English</option></select></label><button id="theme-toggle" class="small-button theme-toggle" type="button" aria-pressed="false"><span id="theme-icon" aria-hidden="true">☾</span><span id="theme-label">Oscuro</span></button></nav></header>
 <main>
 <section id="inicio" class="scene hero dark" data-title="Inicio">
- <div class="hero-copy"><p class="eyebrow">PORTAFOLIO PROFESIONAL · DATOS Y SOFTWARE</p><h1>Datos que ayudan<br>a operar <em>mejor.</em></h1><p class="hero-description">José David Gómez Chamorro<br><span>Analista de Datos y Operaciones</span></p><p class="hero-detail">Experiencia industrial, análisis de información y desarrollo de herramientas para investigar lo que ocurre en la operación.</p><a class="text-link" href="#portafolio">Explorar los cinco proyectos <span>↓</span></a></div>
+ <div class="hero-copy"><p class="eyebrow">PORTAFOLIO PROFESIONAL · DATOS Y SOFTWARE</p><h1>Datos que ayudan<br>a operar <em>mejor.</em></h1><p class="hero-description">José David Gómez Chamorro<br><span>Analista de Datos y Operaciones</span></p><p class="hero-detail">Experiencia industrial, análisis de información y desarrollo de herramientas para investigar lo que ocurre en la operación.</p><a class="text-link" href="#recorrido" data-i18n="heroJourneyLink">Explorar mi recorrido ↓</a></div>
  <div class="hero-art" aria-hidden="true"><div class="signal-label">OBSERVAR / VALIDAR / EXPLICAR</div><div class="signal-plot"><i style="--h:32%"></i><i style="--h:45%"></i><i style="--h:39%"></i><i style="--h:65%"></i><i style="--h:54%"></i><i style="--h:72%"></i><i style="--h:61%"></i><i style="--h:88%"></i><i style="--h:77%"></i><i style="--h:95%"></i></div><p>Cinco proyectos<br>Una visión de la operación</p><small>Composición visual ilustrativa</small></div>
  <div class="scene-footer"><span>PORTAFOLIO PROFESIONAL</span><span>Los ejemplos operativos usan datos 100% sintéticos</span><span class="scene-position">01 / 15</span></div>
 </section>
+<section id="recorrido" class="scene journey" data-title="Un recorrido entre ingeniería y datos" data-i18n-data-title="journeyTitle">
+ <div class="journey-stage">
+  <div class="journey-media" aria-hidden="true">
+   <img class="journey-photo is-current" src="assets/industrial.png" alt="" width="1672" height="941" loading="lazy">
+   <img class="journey-photo" src="assets/naval.png" alt="" width="1672" height="941" loading="lazy">
+   <img class="journey-photo" src="assets/data.png" alt="" width="1672" height="941" loading="lazy">
+  </div>
+  <div class="journey-shade"></div>
+  <div class="journey-heading"><p class="eyebrow" data-i18n="journeyEyebrow">UN RECORRIDO ENTRE INGENIERÍA Y DATOS</p><button type="button" id="motion-toggle" class="journey-motion" data-i18n="motionPause">Pausar movimiento</button></div>
+  <div class="journey-copy">
+   <article class="journey-panel is-current"><span class="journey-step">01 / 03</span><h2 data-i18n-html="journeyIndustrialTitle">Primero, entender<br>el proceso.</h2><p data-i18n="journeyIndustrialText">Producción, inventarios y mantenimiento: conocer la operación me ayuda a formular mejores preguntas sobre sus datos.</p><a href="#trayectoria" class="text-link" data-i18n="journeyExperienceLink">Explorar mi experiencia ↗</a></article>
+   <article class="journey-panel" aria-hidden="true"><span class="journey-step">02 / 03</span><h2 data-i18n-html="journeyNavalTitle">Ingeniería que se<br>convierte en interfaces.</h2><p data-i18n="journeyNavalText">Mi paso por COTECMAR conecta la investigación naval con el desarrollo frontend y el trabajo interdisciplinario.</p><a href="#formacion" class="text-link" data-i18n="journeyEducationLink">Conocer mi formación ↗</a></article>
+   <article class="journey-panel" aria-hidden="true"><span class="journey-step">03 / 03</span><h2 data-i18n-html="journeyDataTitle">Del registro<br>a la explicación.</h2><p data-i18n="journeyDataText">Python, visualización y controles de calidad para investigar movimientos, revisar inconsistencias y comunicar hallazgos.</p><a href="#fleet" class="text-link" data-i18n="journeySoftwareLink">Ver el software funcionando ↗</a></article>
+  </div>
+  <div class="journey-bottom"><div class="journey-rail" role="group" data-i18n-aria-label="journeyNavigation" aria-label="Escenas del recorrido"><button type="button" data-stop="0" class="is-current" aria-pressed="true" data-i18n="journeyRailIndustrial">01 · Industria</button><button type="button" data-stop="1" aria-pressed="false" data-i18n="journeyRailNaval">02 · Ingeniería naval</button><button type="button" data-stop="2" aria-pressed="false" data-i18n="journeyRailData">03 · Datos y software</button></div><span class="concept-label" data-i18n="conceptLabel">Imágenes conceptuales generadas</span><span class="journey-hint" data-i18n="journeyHint">Desplázate para recorrer ↓</span></div>
+  <div class="journey-progress" aria-hidden="true"><i></i></div>
+ </div>
+ <div class="journey-track" aria-hidden="true"><div class="journey-waypoint"></div><div class="journey-waypoint"></div><div class="journey-waypoint"></div></div>
+</section>
+
 <section id="perfil" class="scene" data-title="Perfil">
  <div class="section-top"><p class="eyebrow">PERFIL</p><span class="section-number">02</span></div><h2>Ingeniería con enfoque<br>en análisis de datos</h2>
  <div class="split profile"><p class="lead">Conecto el conocimiento de los procesos industriales con herramientas de análisis y desarrollo de software.</p><div class="education"><article><span>BASE TÉCNICA</span><h3>Ingeniería Mecatrónica<br>e Ingeniería Mecánica</h3><p>Universidad Tecnológica de Bolívar · 2018</p></article><article><span>NEGOCIO Y DATOS</span><h3>MBA y Máster en Big Data</h3><p>ENEB · 2018–2021</p></article><article><span>SOFTWARE</span><h3>Especialización en Ingeniería de Software</h3><p>UNIR · 2023–2024</p></article><p class="caption">Una trayectoria de aprendizaje que conecta ingeniería, negocio y desarrollo. <a href="#formacion">Ver formación y estudios en curso →</a></p></div></div>
@@ -72,6 +96,19 @@
  <div class="project-layout"><div class="project-copy"><p>Procesa exportaciones históricas de combustible en el navegador para explorar un diagrama de proceso, tendencias y alarmas.</p><dl><dt>Entradas</dt><dd>Recepciones, transferencias, despachos y lecturas de volumen.</dd><dt>Exploración</dt><dd>Reproducción temporal y evidencia de eventos.</dd><dt>Tecnología</dt><dd>HTML, CSS, JavaScript, SVG, PapaParse y ECharts.</dd></dl><p class="caption">El proyecto analiza históricos. Esta demo no conecta sensores ni controla equipos físicos.</p></div><div class="demo hmi-demo"><div class="demo-heading"><span>RECREACIÓN ILUSTRATIVA</span><span>100% SINTÉTICA</span></div><label for="tank-time">Lectura histórica: <b id="tank-time-label"></b></label><input type="range" id="tank-time" min="0" max="13" step="1" value="13"><div id="tank-viz" class="tank-viz"></div><div id="tank-trend" class="trend-chart"></div><p class="demo-note">Topología y capacidades inventadas. La vista muestra lecturas sintéticas, no la interfaz original ni un balance completo.</p></div></div>
  <div class="scene-footer"><span>LECTURAS SIMULADAS · ABRIL 2025</span><span class="scene-position">12 / 15</span></div>
 </section>
+<section id="github" class="scene github-scene" data-title="GitHub y desarrollo" data-i18n-data-title="github.sceneTitle">
+ <div class="section-top"><p class="eyebrow" data-i18n="github.eyebrow">GITHUB · DESARROLLO EN PRÁCTICA</p><span class="section-number">13</span></div>
+ <h2 data-i18n-html="github.title">Más proyectos,<br>la misma curiosidad</h2>
+ <div class="github-intro"><p class="github-description" data-i18n="github.intro">Mi perfil público JoseGCH reúne proyectos para explorar interfaces, visualización y desarrollo web. Estos repositorios complementan mi experiencia en datos y operaciones.</p><a class="text-link github-profile-link" href="https://github.com/joseggch15" target="_blank" rel="noopener noreferrer" data-i18n="github.profile">Ver perfil joseggch15 ↗</a></div>
+ <div class="github-projects">
+  <article class="github-project"><div class="github-project-top"><span class="github-project-number">01</span><span class="github-repo-type" data-i18n="github.hmi.category">VISUALIZACIÓN DE PROCESOS</span></div><h3>hmisilos</h3><p data-i18n="github.hmi.description">HMI web de silos para explorar balances de masa con datos simulados directamente en el navegador.</p><div class="github-project-tags"><span>HMI</span><span data-i18n="github.hmi.tagBalance">Balance de masa</span><span data-i18n="github.hmi.tagData">Datos simulados</span></div><a href="https://github.com/joseggch15/hmisilos" target="_blank" rel="noopener noreferrer" data-i18n="github.repository" data-i18n-aria-label="github.hmi.link">Explorar repositorio ↗</a></article>
+  <article class="github-project"><div class="github-project-top"><span class="github-project-number">02</span><span class="github-repo-type" data-i18n="github.react.category">DESARROLLO DE INTERFACES</span></div><h3>ReactCoderHouse<wbr>ProyectoFinal</h3><p data-i18n="github.react.description">Proyecto de interfaz web con componentes React y navegación mediante React Router.</p><div class="github-project-tags"><span>React 18</span><span>Vite 4</span><span>React Router 6</span></div><a href="https://github.com/joseggch15/ReactCoderHouseProyectoFinal" target="_blank" rel="noopener noreferrer" data-i18n="github.repository" data-i18n-aria-label="github.react.link">Explorar repositorio ↗</a></article>
+  <article class="github-project"><div class="github-project-top"><span class="github-project-number">03</span><span class="github-repo-type" data-i18n="github.astro.category">PORTAFOLIO WEB</span></div><h3>MyPortafolio<wbr>WithAstro</h3><p data-i18n="github.astro.description">Exploración de un portafolio personal con Astro y estilos utilitarios de Tailwind CSS.</p><div class="github-project-tags"><span>Astro 3</span><span>Tailwind CSS 3</span></div><a href="https://github.com/joseggch15/MyPortafolioWithAstro" target="_blank" rel="noopener noreferrer" data-i18n="github.repository" data-i18n-aria-label="github.astro.link">Explorar repositorio ↗</a></article>
+ </div>
+ <p class="caption github-source-note" data-i18n="github.note">Selección basada en el README y los archivos de configuración públicos de estos repositorios. Las tecnologías indican herramientas utilizadas en los proyectos.</p>
+ <div class="scene-footer"><span data-i18n="github.footer">CÓDIGO PÚBLICO / INTERFACES / APRENDIZAJE</span><span class="scene-position">13 / 16</span></div>
+</section>
+
 <section id="metodo" class="scene" data-title="Método y privacidad">
  <div class="section-top"><p class="eyebrow">FORMA DE TRABAJO</p><span class="section-number">13</span></div><h2>Una explicación necesita<br>datos que se puedan seguir</h2>
  <div class="method"><article><span>01</span><h3>Comprender el proceso</h3><p>Definir la pregunta operativa, la unidad de análisis y el significado de cada campo.</p></article><article><span>02</span><h3>Preparar y validar</h3><p>Normalizar registros, relacionar fuentes y revisar faltantes, duplicados y coherencia.</p></article><article><span>03</span><h3>Analizar con evidencia</h3><p>Calcular indicadores y rastrear los hallazgos hasta las transacciones que los explican.</p></article><article><span>04</span><h3>Comunicar y revisar</h3><p>Presentar conclusiones comprensibles y conservar la revisión del responsable del proceso.</p></article></div>
@@ -90,7 +127,7 @@
 </main>
 <div class="presentation-controls" aria-label="Controles de presentación"><button id="previous" aria-label="Anterior">←</button><span id="position" aria-live="polite">01 / 15</span><button id="next" aria-label="Siguiente">→</button><button id="exit-present" aria-label="Salir de presentación">Salir</button></div>
 <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
-<script src="demo-data.js"></script><script src="app.js"></script>
+<script src="i18n.js"></script><script src="motion.js"></script><script src="demo-data.js"></script><script src="app.js"></script><script src="enhancements.js"></script>
 </body>
 </html>
 

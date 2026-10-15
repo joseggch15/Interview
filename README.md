@@ -4,11 +4,13 @@ Portafolio profesional de experiencia en operaciones industriales, mantenimiento
 
 **Sitio:** [joseggch15.github.io/Interview](https://joseggch15.github.io/Interview/)
 
+La trayectoria incluye los logos compartidos por el titular. Prologic Group (PLG) se identifica como empleador actual y Newmont como cliente de los servicios descritos.
+
 La presentación reúne la trayectoria laboral, la formación académica y cinco proyectos: Fleet Maintenance, Intake vs Delivery, Overfill SFL Spy, Sweeper & Mop y HMI Tank.
 
 ## Privacidad y demostraciones
 
-Las capturas muestran las cinco aplicaciones originales ejecutadas en entornos de demostración con datos 100% sintéticos. Los grupos, equipos, identificadores, usuarios, fechas, volúmenes y lecturas son ficticios. No se publican datos operativos, código empresarial ni el CV original. El empleador actual permanece confidencial. Los ejemplos interactivos desplegables son recreaciones simplificadas para explicar la lógica de cada proyecto.
+Las capturas muestran las cinco aplicaciones originales ejecutadas en entornos de demostración con datos 100% sintéticos. Los grupos, equipos, identificadores, usuarios, fechas, volúmenes y lecturas son ficticios. No se publican datos operativos, código empresarial ni el CV original. Los ejemplos interactivos desplegables son recreaciones simplificadas para explicar la lógica de cada proyecto.
 
 La formación incluye las actualizaciones proporcionadas por el titular: el técnico del SENA en Programación de Aplicaciones para Dispositivos Móviles finalizó en octubre de 2023; Tecnología en Análisis y Desarrollo de Software del SENA está en curso desde abril de 2025. Los ejemplos técnicos no representan ahorros, productividad o resultados operativos reales.
 

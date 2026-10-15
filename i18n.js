@@ -9,6 +9,16 @@
   let theme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
   const save = (key, value) => { try { localStorage.setItem(key, value); } catch (error) { /* Preferences still work in memory. */ } };
   const pairs = [
+    ["EMPLEADOR", "EMPLOYER"],
+    ["CLIENTE", "CLIENT"],
+    ["Organizaciones del cargo actual", "Organizations associated with the current role"],
+    ["Logo de Biofilm S.A.", "Biofilm S.A. logo"],
+    ["Logo de Stip S.A.S.", "Stip S.A.S. logo"],
+    ["Logo de Taghleef Industries", "Taghleef Industries logo"],
+    ["Logo de COTECMAR", "COTECMAR logo"],
+    ["Logo de Prologic Group (PLG)", "Prologic Group (PLG) logo"],
+    ["Logo de Newmont", "Newmont logo"],
+
     ['José David Gómez · Datos y operaciones', 'José David Gómez · Data and operations'],
     ['José David Gómez Chamorro. Experiencia en datos, operaciones y software. Portafolio profesional con experiencia, formación y cinco demostraciones con datos sintéticos.', 'José David Gómez Chamorro. Experience in data, operations and software. Professional portfolio featuring work experience, education and five demonstrations using synthetic data.'],
     ['Ir al contenido', 'Skip to content'], ['/ DATOS Y OPERACIONES', '/ DATA AND OPERATIONS'],
@@ -67,7 +77,7 @@
     ['Investigación aplicada en el ámbito naval. Desarrollo frontend de interfaces para software naval.', 'Applied research in the naval sector. Frontend interface development for naval software.'],
     ['Investigación y análisis de desafíos del sector naval dentro del Departamento de Investigación y Desarrollo.', 'Researched and analyzed naval-sector challenges within the Research and Development Department.'],
     ['Participación como desarrollador frontend en el diseño y optimización de interfaces de software naval, en colaboración con un equipo interdisciplinario.', 'Contributed as a frontend developer to designing and optimizing naval software interfaces with an interdisciplinary team.'],
-    ['Diciembre 2023 – actualidad', 'December 2023 – present'], ['Empresa confidencial · sector minero', 'Confidential company · mining sector'],
+    ['Diciembre 2023 – actualidad', 'December 2023 – present'], ['Prologic Group (PLG) · servicios para Newmont', 'Prologic Group (PLG) · services for Newmont'],
     ['Seguimiento de KPIs y reportes en Power BI. Automatización con Python e investigación de inconsistencias.', 'KPI monitoring and Power BI reporting. Python automation and investigation of inconsistencies.'],
     ['Seguimiento de KPIs en sistemas de gestión de combustible y elaboración de reportes semanales y mensuales sobre consumo, lubricantes y burn rate con Power BI.', 'Monitored fuel-management system KPIs and prepared weekly and monthly Power BI reports on consumption, lubricants and burn rate.'],
     ['Automatización de procesos con Python e investigación de anomalías e inconsistencias para comunicar hallazgos a los responsables de la operación.', 'Automated processes with Python and investigated anomalies and inconsistencies to communicate findings to operations stakeholders.'],

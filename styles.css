@@ -55,3 +55,30 @@ html[data-theme="dark"] .timeline .current time{color:var(--ink)}
 @media(max-width:760px){#theme-label,.present-label{display:none}.small-button .present-icon{font-size:18px}.site-header nav{gap:8px}.site-header .small-button{padding:7px 10px;min-width:38px;min-height:38px}.language-control select{font-size:12px;width:105px;min-height:38px}.site-header{padding:0 5vw}.presenting .site-header{display:flex}.demo .metrics strong{font-size:24px}}
 @media(max-width:420px){.demo .metrics strong{font-size:21px}.bar-row{grid-template-columns:80px 1fr 65px;gap:8px}.demo-heading{letter-spacing:1px}.tank-item>strong{font-size:8px}}
 @media print{html[data-theme="dark"]{--paper:#f6f3eb;--ink:#123237;--muted:#567074;--teal:#137c76;--line:#ccd5cd;--panel:#fffdf7}.site-header{display:none!important}}
+
+/* Company marks supplied by the portfolio owner; original colors are preserved. */
+.experience-scene .timeline article{grid-template-columns:205px minmax(0,1fr) 136px;gap:24px;align-items:start}
+.role-copy{min-width:0}
+.role-brands{display:grid;gap:9px;justify-items:stretch;padding-top:2px}
+.company-brand{margin:0;min-width:0}
+.company-brand figcaption{font-size:8px;letter-spacing:1px;color:var(--muted);font-weight:700;margin:0 0 4px}
+.company-logo-card{height:66px;display:flex;align-items:center;justify-content:center;padding:8px;background:#fff;border:1px solid #dbe3df;border-radius:5px;overflow:hidden}
+.company-logo{display:block;max-width:100%;width:118px;height:48px;object-fit:contain}
+.company-logo--cotecmar{width:62px;height:58px}
+.company-logo--newmont{width:118px;height:42px;object-fit:cover;object-position:center}
+.role-brands--pair .company-logo-card{height:49px;padding:5px 8px}
+.role-brands--pair .company-logo--plg{height:37px}
+.role-brands--pair .company-logo--newmont{height:35px}
+.presenting .experience-scene .timeline article{grid-template-columns:190px minmax(0,1fr) 116px;gap:18px;padding:10px 0}
+.presenting .company-logo-card{height:49px;padding:5px 8px}
+.presenting .company-logo{width:100px;height:35px}
+.presenting .company-logo--cotecmar{width:44px;height:43px}
+.presenting .role-brands--pair{gap:4px}
+.presenting .role-brands--pair .company-logo-card{height:35px;padding:3px 6px}
+.presenting .role-brands--pair .company-logo{height:27px}
+.presenting .company-brand figcaption{font-size:7px;margin-bottom:2px}
+@media(max-width:1000px){.experience-scene .timeline article{grid-template-columns:160px minmax(0,1fr) 112px;gap:20px}.company-logo-card{height:62px}.company-logo{width:96px}.company-logo--cotecmar{width:56px;height:54px}.company-logo--newmont{width:96px;height:35px}.presenting .experience-scene .timeline article{grid-template-columns:145px minmax(0,1fr) 106px;gap:15px}}
+@media(max-width:700px){.experience-scene .timeline article,.presenting .experience-scene .timeline article{grid-template-columns:minmax(0,1fr) 104px;gap:10px 18px;padding:19px 0}.experience-scene .timeline article>time{grid-column:1/-1;grid-row:1;padding:0}.role-copy{grid-column:1;grid-row:2}.role-brands{grid-column:2;grid-row:2}.company-logo-card{height:60px;padding:6px}.company-logo{width:90px;height:45px}.company-logo--cotecmar{width:53px;height:52px}.company-logo--newmont{width:90px;height:33px}.role-brands--pair .company-logo-card{height:43px;padding:4px 6px}.role-brands--pair .company-logo--plg{height:32px}.role-brands--pair .company-logo--newmont{height:29px}.company-brand figcaption{font-size:7px}.presenting .role-brands{align-self:start}.presenting .experience-scene .timeline h3{font-size:17px}.presenting .experience-scene .timeline article{padding:13px 0}}
+@media(max-width:420px){.experience-scene .timeline article,.presenting .experience-scene .timeline article{grid-template-columns:minmax(0,1fr) 87px;column-gap:14px}.company-logo{width:73px}.company-logo--cotecmar{width:49px;height:50px}.company-logo--newmont{width:73px;height:28px}.company-logo-card{height:57px}.company-brand figcaption{font-size:6.5px;letter-spacing:.7px}}
+@media print{.experience-scene .timeline article{grid-template-columns:160px minmax(0,1fr) 110px;gap:20px}.company-logo-card{print-color-adjust:exact;-webkit-print-color-adjust:exact}.company-logo--cotecmar{height:50px}}
+@media(min-width:701px){.presenting .experience-scene h2{font-size:36px;margin-bottom:18px}.presenting .experience-scene .section-top{margin-bottom:15px}.presenting .experience-intro{font-size:12px;margin-bottom:12px}.presenting .experience-scene .timeline article{padding:8px 0}.presenting .company-logo-card{height:42px}.presenting .company-logo{height:29px}.presenting .company-logo--cotecmar{height:37px;width:40px}.presenting .company-logo--taghleef{object-fit:cover;object-position:center}.presenting .role-brands--pair{gap:3px}.presenting .role-brands--pair .company-logo-card{height:28px}.presenting .role-brands--pair .company-logo{height:23px}.presenting .company-brand figcaption{font-size:6.5px}.presenting .experience-scene .scene-footer{padding-top:18px}}

@@ -10,13 +10,15 @@ La presentación reúne la trayectoria laboral, la formación académica y cinco
 
 ## Privacidad y demostraciones
 
-Las capturas muestran las cinco aplicaciones originales ejecutadas en entornos de demostración con datos 100% sintéticos. Los grupos, equipos, identificadores, usuarios, fechas, volúmenes y lecturas son ficticios. No se publican datos operativos, código empresarial ni el CV original. Los ejemplos interactivos desplegables son recreaciones simplificadas para explicar la lógica de cada proyecto.
+Las capturas de las cinco demos de análisis operativo muestran las aplicaciones originales ejecutadas en entornos de demostración con datos 100% sintéticos. Los grupos, equipos, identificadores, usuarios, fechas, volúmenes y lecturas son ficticios. No se publican bases operativas, código empresarial ni el CV original. Los ejemplos interactivos desplegables son recreaciones simplificadas para explicar la lógica de cada proyecto.
 
 La formación incluye las actualizaciones proporcionadas por el titular: el técnico del SENA en Programación de Aplicaciones para Dispositivos Móviles finalizó en octubre de 2023; Tecnología en Análisis y Desarrollo de Software del SENA está en curso desde abril de 2025. Los ejemplos técnicos no representan ahorros, productividad o resultados operativos reales.
 
+La galería histórica añade doce imágenes reales: seis de interfaces navales de COTECMAR, con participación frontend en equipo, y dos de cada experiencia industrial en Biofilm, STIP y Taghleef. Este material fue compartido por el titular y conserva las imágenes originales. Se presenta por separado de las demos con datos sintéticos. El documento de origen completo no se publica.
+
 ## Uso
 
-Abre el sitio y pulsa **Modo presentación** para recorrer sus 17 secciones. Avanza con los botones o las flechas del teclado y sal con Escape. Puedes cambiar entre Español/English y tema claro/oscuro; las preferencias se conservan en el navegador. Selecciona una captura para ampliarla o despliega el ejemplo interactivo para explorar datos ficticios.
+Abre el sitio y pulsa **Modo presentación** para recorrer sus 18 secciones. Avanza con los botones o las flechas del teclado y sal con Escape. Puedes cambiar entre Español/English y tema claro/oscuro; las preferencias se conservan en el navegador. Filtra la galería histórica por empresa, selecciona una imagen para ampliarla o despliega el ejemplo interactivo para explorar datos ficticios.
 
 El recorrido visual inicial usa capas de imágenes, transiciones y movimiento suave ligados al desplazamiento. Puedes pausar el movimiento; también respeta la preferencia del sistema de reducir animaciones. En modo presentación utiliza los tres botones de escenas.
 
